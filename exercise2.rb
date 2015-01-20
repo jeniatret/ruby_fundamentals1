@@ -7,3 +7,6 @@ puts "The tip is: " + 8.25.to_s
 #output result in a sentence by using string interpolation
 number = 45628 * 7839
 puts "The value is #{number}"
+
+#the value of the expression
+puts (true && false) || (false && true) || !(false && false)
